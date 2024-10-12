@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import regd from "../../Assets/Projects/Student_Sub_Regd.png";
+import subregd from "../../Assets/Projects/subregd.png";
+import rhynoev from "../../Assets/Projects/Rhyno_EV.png";
+import univmngsys from "../../Assets/Projects/Univ_Mng_Sys.png";
+import eventapp from "../../Assets/Projects/Event_App.png";
+import ATM from "../../Assets/Projects/ATM.png";
 
 function Projects() {
   return (
@@ -23,67 +23,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={univmngsys}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="University Management System"
+              description="A Complete Student Enrollment System using HTML CSS JS PHP."
+              ghLink="https://github.com/sankalpsahoo07/University_Management_System_using_HTML_CSS_JS_PHP.git"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ATM}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Banking Management System"
+              description="A Complete Banking Management System with ATM Simulation System using JAVA."
+              ghLink="https://github.com/sankalpsahoo07/Banking_Management_System_using_JAVA.git"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={rhynoev}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="RHYNO EV"
+              description="A Complete Electric Vehicle Website using React."
+              ghLink="https://github.com/sankalpsahoo07/RHYNO_EV_MAJOR_WEB_DEV_PROJECT_TEACHNOOK_SANKALP.git"
+              demoLink="https://rhynoev.vercel.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={regd}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Student Subject Registration"
+              description="Student Subject Registration Project is a web application using JSP Servlet JDBC MySQL designed to allow students to register for subjects or courses online. This system manages the entire process of subject selection, registration, and management, providing a seamless interface for students, administrators, and educators."
+              ghLink="https://github.com/sankalpsahoo07/Student_Subject_Registration_using_JSP-Servlet-JDBC-MySQL.git"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={eventapp}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Event Management Android App"
+              description="Event Management Android App using Kotlin and Android Studio"
+              ghLink="https://github.com/sankalpsahoo07/Event_Management_Android_App.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={subregd}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Student Subject Registration"
+              description="A Student Subject Registration Full stack Project is a web application using Angular SpringBoot designed to allow students to register for subjects or courses online. This system manages the entire process of subject selection, registration, and management, providing a seamless interface for students, administrators, and educators."
+              ghLink="https://github.com/sankalpsahoo07/Student_Subject_Registration_using_Angular_SpringBoot.git"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
