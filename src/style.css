@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2em !important;
+  width: 15em !important;
 }
 
 .navbar-nav .nav-link {
@@ -309,6 +309,21 @@ button:focus {
   justify-content: center !important;
   padding-top: 9em !important;
 }
+
+.myAvtar img {
+  border-radius: 200px; /* Change this value for more or less curve */
+  border: 5px solid; /* Thickness of the border */
+  /*border-image: linear-gradient(45deg, red, green, blue) 1; /* RGB gradient border */
+  padding: 5px; /* Adjust padding if needed */
+  transition: border 0.5s ease, border-radius 0.5s ease; /* Smooth transition effect */
+}
+
+.myAvtar img:hover {
+  border-radius: 25px; /* On hover, increase the curve */
+  border: 5px solid transparent; /* Make border transparent */
+  border-image: linear-gradient(45deg, red, green, blue) 1; /* RGB gradient border effect */
+}
+
 
 @media (max-width: 767px) {
   .myAvtar {
