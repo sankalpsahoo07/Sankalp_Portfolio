@@ -3,7 +3,7 @@
   <a href="https://sankalp.vercel.app/" target="_blank">sankalp.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Sankalp_Home.png" />
+  <img alt="Demo" src="./Images/Readme_Image.png" />
 </div>
 
 <br/>
